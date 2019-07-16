@@ -13,22 +13,11 @@ class IsItFriday {
 
 public class Stepdefs {
     private String today;
-    //private String file_type;
     private String actualAnswer;
-    // private String[] headers;
-    // String[] tradeHeaders = {"type","base_asset","base_amount","counter_asset","counter_amount","fee_asset","fee_amount","rebate_asset","rebate_amount","rate","base_usd_rate","base_xbt_rate","counter_usd_rate","counter_xbt_rate","tx_ts","order_ts","exchange_name","exchange_order_id","exchange_tx_id","client_order_id","client_tx_id","initial_margin","client_tags","system_tags","comment"};
-    // String[] transferHeaders =
 
     void Stepdefs() {
         //headers = new String[];
     }
-
-//
-//    @Given("^file of \"([^\"]*)\"$")
-//    public void file_type(String trade_type) {
-//      //  this.file_type = trade_type;
-//      //  headers = Arrays.copyOf(tradeHeaders,tradeHeaders.length);
-//    }
 
 
     @Given("^today is \"([^\"]*)\"$")
